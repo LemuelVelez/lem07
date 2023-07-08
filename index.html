@@ -1,13 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background-color: aqua;"> <!--INLINE STYLING THROUGH THE USE OF ATTRIBUTES-->
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>KodeGo-Lemuel</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Exercise</title>
+    <style>
+        img
+        {
+            width:300px; 
+            height:300px;
+        }
+    </style>
 </head>
 <body>
-	<h1>My First Website</h1>
-	<p>Hello World!</p>
+<!-- HEADER -->
+<header style="background-color: tomato; text-align: center;">
+    <!--NAV-->
+    <nav style="background-color: blue;">
+        <!-- UNORDERED LIST -->
+        <ul style="background-color: goldenrod; list-style-type: none; height: 5vh;">
+            <li style="float: left; padding-left: 2%;">Home</li>
+            <li style="float: left; padding-left: 2%;">About</li>
+            <li style="float: left; padding-left: 2%;">Contact</li>
+        </ul>
+    </nav>
+    <br>
+
+    <h1>HEADING ELEMENT 1 </h1>
+
+</header>
+
+    
+<!-- MAIN -->
+<main style="background-color:#18d6a32c">
+    <h2>MAIN CONTENT</h2>
+    <!-- ASIDE -->
+    <aside style="background-color: wheat; float: right; height: 100%; width: 30%;">
+        <h2>ASIDE ELEMENT</h2>
+        <ul>
+            <li>Unordered list Item 1</li>
+            <li>Unordered list Item 2</li>
+            <li>Unordered list Item 3</li>
+            <li>Unordered list Item 4</li>
+            <li>Unordered list Item 5</li>
+        </ul>
+
+        <ol>
+            <li>Ordered list Item 1</li>
+            <li>Ordered list Item 2</li>
+            <li>Ordered list Item 3</li>
+            <li>Ordered list Item 4</li>
+            <li>Ordered list Item 5</li>
+        </ol>
+        <dl>
+            <dt style="padding-left: 5%;">Coffee</dt>
+            <dd>Hot & Cold</dd>
+            <dt style="padding-left: 5%;">Salad</dt>
+            <dd>Delicious</dd>
+
+
+        </dl>
+
+    </aside>
+    <!-- SECTION 1 -->
+    <section style="background-color:pink; height: 20vh;">
+        <h2>SECTION 1</h2>
+        <!-- ARTICLE 1 -->
+        <article style="background-color:lightblue; width: 50%;">
+            <h2 style="text-align: center;">Article 1</h2>
+        </article>
+
+    </section>
+
+
+    <!--SECTION 2-->
+    <section style="background-color:orchid; height: 100vh;">
+        <h2>SECTION 2</h2>
+        <!-- ARTICLE 2 -->
+        <article style="background-color:lightblue; width: 50%;">
+            <h2 style="text-align: center;">Article 2</h2>
+        </article>
+
+    </section>
+    <hr style="width: 50%;">
+    <!--SECTION 3-->
+    <section style="background-color:pink; height: 120vh;">
+        <h2>SECTION 3</h2>
+        <img src="https://images.pexels.com/photos/12845496/pexels-photo-12845496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Photo by Mehmet Turgut Kirkgoz" style="float:left;">
+        <br>
+        <br>
+        <br>
+        <br>
+        <article style="background-color:lightblue; ">
+            <h2 style="text-align: center;">Article 3</h2>
+            <p style="background-color:green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+                cumque accusamus quisquam animi exercitationem beatae perferendis! Minima totam veniam perspiciatis?
+            </p>
+        </article>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="https://images.pexels.com/photos/6205292/pexels-photo-6205292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Photo by James Murray" style="float:right;">
+        <article style="background-color:lightblue; ">
+            <h2 style="text-align: center;">Article 4</h2>
+            <p style="background-color:green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+                omnis maiores iusto laudantium, laboriosam minus cum consequuntur consectetur, dolorum quae sapiente
+                debitis earum quos? Officia rem aut doloribus autem laborum dolores vero sunt commodi tempore
+                impedit quisquam veritatis, sint voluptates.</p>
+        </article>
+
+    </section>
+
+
+</main>
+
+
+<!-- FOOTER SECTION -->
+<footer style="text-align:center; background-color: black; color: #fff; height: 20vh;">
+    <p style="padding-top: 5%;">&#169;Copyright 2023</p>
+</footer>
 
 </body>
+
 </html>
